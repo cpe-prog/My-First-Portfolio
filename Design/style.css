@@ -1,0 +1,650 @@
+*{
+  font-family: 'Poppines','sans-serif';
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0;
+}
+/* -------------------------------header ------------------------------------------*/
+#header{
+  width: 100%;
+  height: 100vh;
+  background-image:url(background0000.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.container{
+  padding: 10px 10px;
+}
+/* ------------------------------------name logo------------------------------------*/
+.myName{
+  width: 140px;
+  border-radius: 10px;
+  text-shadow: 5px 2px rgb(195, 192, 192);
+ margin-top: -5px;
+  margin-left: 35px;
+  color:rgb(255, 0, 0);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+/*------------------------------------------list of menu----------------------------------------*/
+nav ul{
+ margin-top: -30px;
+ margin-right: 2rem;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 85rem;
+  height: 60px;
+  transition: background 0.5s;
+  position: fixed;
+}
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin: 5px 20px;
+}
+nav ul li a{
+  font-family: sans-serif;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #ff004f;
+  border-radius: 3px;
+  font-size: 18px;
+  box-shadow: 2px 2px 2px rgb(22, 21, 21);
+  transition: 0.5s;
+}
+nav ul li a:active{
+  background-color: rgb(161, 153, 153);
+  transition: 0.15s;                           
+}
+
+/* --------------------------------------header text design----------------------------------- */
+.header-text{    
+  color: rgb(233, 233, 233);
+  margin-left: 715px;
+  margin-right: 100px;
+  padding: 5px 5px 5px;
+  padding-left: 20px;
+  border-radius: 10px;
+  font-family: sans-serif;
+}
+.name-tag{
+  font-size: 50px;
+  font-family: sans-serif;
+  margin-top: 10rem;
+  
+}
+.span-tag-name{
+  color:rgb(255, 0, 0);
+  font-size: 25px;
+  font-family: Arial;
+  font-weight: bold;
+  text-shadow: 2px 1px black;
+}
+.graphics-tag{
+  font-family: Arial;
+  color: rgb(255, 0, 0);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 2px 1px black;
+}
+.front-end{
+  font-family: Arial;
+  font-size: 25px;
+  color:rgb(255, 0, 0) ;
+  font-weight: bold;
+  text-shadow: 2px 1px black;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------About-------------------------------------------*/
+
+#about{ 
+  margin-top: 80px;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-image img{
+  margin-top: 20px;
+  margin-left: 80px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 10px rgb(87, 86, 86);
+}
+.about-text{
+  flex-basis: 60%;
+  margin-bottom: 50px;
+}
+.about-myname{
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+.about-something{
+  margin-top: 2px;
+  color: rgb(255, 36, 36);
+}
+.subtitle-info{
+  font-style: oblique;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: antiquewhite;
+  margin-bottom:  0;
+}
+
+.tab-titles{
+  margin-top: 0;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.about-links{
+  color: white;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.about-links::after{
+  content:'';
+  width: 0;
+  height:3px;
+  background:red;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  transition: 1s;
+}
+.about-links.active-skills::after{
+  width: 50%;
+}
+
+/*---------------------------------about personal-INFO--------------------------------*/
+.about-personal-info{
+  margin: 50px 80px;
+
+}
+.about-personal-info .list-item{
+  display: inline-flex;
+  width: 20rem;
+  margin-bottom: 5rem;
+  margin-left: -45px;
+}
+.about-personal-info .list-item label{
+  font-size: 15px;
+  font-weight: bold;
+  width: 90px;
+  border-right: 2px solid rgb(255, 255, 255);
+  font-family: Arial;
+}
+.about-personal-info .list-item p{
+  margin:0;
+  padding-left: 1rem;
+  font-size: 15px;
+  color: rgb(212, 211, 208);
+}
+
+/*-------------------------Download button------------------------------*/
+.btn{
+  background-color: transparent;
+  font-size: 17px;
+  outline: none;
+  border: 2.5px solid rgb(0, 203, 249);
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: -60px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn a{
+  text-decoration: none;
+  color: white;
+}
+.btn:hover{
+  background-color: red;
+  border: 0;
+  transition: 0.5s;
+}
+.btn:active{
+  opacity:0.5;
+}
+/*--------------------------------border-------------------------------------*/
+.border{
+  width: 50rem;
+  height: 3px;
+  background-color: rgb(255, 0, 0);
+  margin-top: 15px;
+}
+/*---------------------------------Resume-------------------------------------*/
+#resume{
+  min-height: 100vh;
+  background-color: rgb(17, 17, 17);
+}
+#resume .title{
+  margin-bottom: -5;
+}
+.heading-wrapper p{
+  color: gray;
+}
+.educational p{
+  color: rgb(183, 177, 177);
+}
+.skills p{
+  color: rgb(183, 177, 177);
+}
+.heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.educational{
+  margin-left: -26rem;
+}
+.skills{
+  margin-right: -26rem;
+  margin-top: -711px;
+}
+.resume-item span{
+  color: rgb(255, 255, 255);
+}
+.resume-item{
+  width: 25rem;
+  padding: 20px 40px;
+  background-color: #191a20;
+  border-bottom: 1px solid #313131;
+  border-left: 2px solid red;
+  border-bottom:  1px solid #313131;
+  transition: 1s;
+  border-radius: 8px;
+  transition: transform 0.5s;
+}
+.resume-item:hover{
+  background-color: rgb(238, 69, 69);
+  transition: 1s;
+  transform: translate(10px);
+}
+.resume-item .item-arrow{
+  content: "";
+  height: 16px;
+  width: 16px;
+  margin-left: -40;
+  top: 1rem;
+  background-color: red;
+  border: 8px solid transparent;
+  left: 16px; 
+  border-right-color:#ffffff;
+  padding-left: -15px;
+}
+
+
+/*-----------------------------------Languages-----------------------------*/
+
+#languages{
+  min-height: 100vh;
+  background-color: rgb(102, 99, 99);
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Arial;
+}   
+.container-item{
+  background-color: #111215;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+  padding-left: 25rem;
+}
+.heading-wrapper .heading{
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-family: Arial;
+}
+.heading-wrapper label{
+  color: rgb(0, 0, 0);
+  margin-top: 3rem;
+  margin-bottom: -4rem;
+  font-size: medium;
+  font-family: Arial;
+}
+
+
+.progress-item .progress-bar{
+  width: 35rem;
+  height: 8px;
+  background-color: red;
+  margin-bottom: 2rem;
+}
+/*--------------------html-----------------------*/
+.progress-item .progress-bar .progress-line.html{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.html::after{
+  content: "90%";
+  position: absolute;
+  color: rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.html{
+  width: 90px;
+}
+
+/*---------css-------*/
+.progress-item .progress-bar .progress-line.css{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.css::after{
+  content: "80%";
+  position: absolute;
+  color: rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.css{
+  width: 80px;
+}
+/*---------javascript---------*/
+.progress-item .progress-bar .progress-line.js{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.js::after{
+  content: "50%";
+  position: absolute;
+  color: rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.js{
+  width: 50px;
+}
+/*-------------Django------------*/
+.progress-item .progress-bar .progress-line.django{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.django::after{
+  content: "50%";
+  position: absolute;
+  color:rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.django{
+  width: 50px;
+}
+/*---------------python------------*/
+.progress-item .progress-bar .progress-line.py{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.py::after{
+  content: "60%";
+  position: absolute;
+  color: rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.py{
+  width: 60px;
+}
+/*----------------Node.js-----------*/
+.progress-item .progress-bar .progress-line.node{
+  height: 100%;
+  background-color: rgb(59, 57, 57);
+  position: relative;
+}
+.progress-item .progress-bar .progress-line.node::after{
+  content: "50%";
+  position: absolute;
+  color: rgb(254, 23, 23);
+  font-size: 17px;
+  top: -25px;
+}
+.progress-bar .progress-line.node{
+  width: 50px;
+}
+
+
+
+
+
+/*-----------------------Portfolio---------------------------*/
+#portfolio{
+  padding: 50px 0;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+.container .sub-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.work-list{
+  margin-left: 65px;
+  width: 150rem;
+  margin-top:150px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.work{
+  margin-right: -200px;
+}
+.work img{
+  width: 60%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+.layer{
+  margin-left: -18px;
+  margin-top: -257px;
+  width: 404px;
+  height: 0;
+  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 14px;
+  color:transparent;
+  transition: height 0.5s;
+}
+.layer h3{
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
+}
+.layer .img1{
+  margin-top: 50px;
+  color: #ff0051;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 61px;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 30px;
+}
+.work:hover img{
+  transform: scale(1.1);
+}
+.work:hover .layer{
+  height: 269px;
+  color: rgb(255, 252, 252);
+}
+.layer span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+/*------------see more-----------------*/
+.linked{
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding:  14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: wheat;
+  transition: background 0.5s;
+}
+.linked:hover{
+  background-color: #ff004f;
+}
+
+
+
+
+
+
+/*---------------------Contact----------------------*/
+
+#contact{
+  background:rgb(134, 121, 121);
+}
+.contact-left{
+ flex-basis: 35%;
+ margin-bottom: 50px;
+}
+.contact-right{
+  flex-basis: 60%;
+}
+.contact-left p{
+  margin-top: 30px;
+  color: #ffffff;
+}
+.contact-left .sub-title{
+  color: rgb(255, 255, 255);
+}
+
+.contact-left p img{
+  margin-right:8px;
+  font-size: 25px;
+  margin-left: 27%;
+}
+.contact-left img{
+  width: 25px;
+}
+
+.social-icon{
+  margin-top: 30px;
+  margin-left: 27%;
+}
+.social-icon img{
+  margin-right: 12px;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+.social-icon img:hover{
+  color: #ff004f;
+  transform: translateY(-10px);
+}
+.social-icon img:active{
+  transform: scale(2.1);
+}
+.contact-right form{
+  width: 80%;
+  margin-bottom: 50px;
+}
+form input, form textarea{
+  width: 100%;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgb(74, 74, 74) ;
+  padding: 15px;
+  margin: 15px 0;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+form .btn2{
+  height: 40px;
+  width: 20%;
+  font-size: 18px;
+  margin-top: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  background: #ff004f;
+}
+form .btn2:active{
+  opacity: 0.5;
+}
+
+.copywrite{
+  background-color: rgb(74, 74, 74);
+  height: 12%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 5px;
+  font-weight: 300;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+.copywrite .copywrite-symbol{
+  font-size: 22px;
+  color: rgb(227, 30, 30);
+  font-weight: bold;
+}
+
+
+
+/*----------------------------css small size-----------------*/
+
+
