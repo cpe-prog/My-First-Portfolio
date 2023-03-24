@@ -22,7 +22,7 @@ body{
 }
 /* ------------------------------------name logo------------------------------------*/
 .myName{
-  width: 140px;
+  width: 100px;
   border-radius: 10px;
   text-shadow: 5px 2px rgb(195, 192, 192);
  margin-top: -5px;
