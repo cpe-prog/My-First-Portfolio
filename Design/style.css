@@ -10,7 +10,7 @@ body{
 }
 /* -------------------------------header ------------------------------------------*/
 #header{
-  width: 100%;
+  width: 20%;
   height: 100vh;
   background-image:url(background0000.jpg);
   background-size: cover;
