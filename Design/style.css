@@ -44,7 +44,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 70rem;
+  width: 60rem;
   height: 60px;
   transition: background 0.5s;
   position: fixed;
