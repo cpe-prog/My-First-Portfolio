@@ -45,7 +45,7 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  width: 78rem;
+  width: 80rem;
   height: 60px;
   transition: background 0.5s;
   position: fixed;
@@ -280,7 +280,7 @@ nav ul li a:active{
 }
 .skills{
   margin-right: -26rem;
-  margin-top: -780px;
+  margin-top: -750px;
 }
 .resume-item span{
   color: rgb(255, 255, 255);
