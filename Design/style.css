@@ -9,6 +9,9 @@ body {
 	color: white;
 	margin: 0;
 }
+main {
+	width: auto;
+}
 /* -------------------------------header ------------------------------------------*/
 #header {
 	width: 100%;
